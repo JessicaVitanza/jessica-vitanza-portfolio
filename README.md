@@ -2,6 +2,6 @@
 
 ## Implementato con:
 
-### `jsx`, `sass`, `scss module`, `router-dom`, `parallax`, `Spline 3D`
+### `jsx`, `html`, `sass`, `scss module`, `router-dom`, `parallax`, `Spline 3D`
 
 
