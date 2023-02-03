@@ -7,9 +7,7 @@ function Home() {
 
       <div className={styles.Home}>
          <Spline scene="https://prod.spline.design/n58qGHBAX5FaUtaD/scene.splinecode" />
-          <div>
-              Benvenuti
-          </div>
+
       </div>
 
   );
