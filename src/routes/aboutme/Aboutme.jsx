@@ -4,7 +4,9 @@ function Aboutme() {
 
   return (
 
-      <div className={styles.Aboutme}>
+      <div className={styles.Aboutme} style={{ 
+        backgroundImage: `url("./background.gif")` 
+      }}>
           <p>Su di me</p>
       </div>
 

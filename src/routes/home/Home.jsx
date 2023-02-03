@@ -5,9 +5,15 @@ function Home() {
 
   return (
 
-      <div className={styles.Home}>
+      <div className={styles.Home} 
+      
+      style={{ 
+        backgroundImage: `url("./background.gif")` 
+      }}>
          <Spline scene="https://prod.spline.design/n58qGHBAX5FaUtaD/scene.splinecode" />
-
+       
+          <img src="./intro.png" alt="contatti" />
+          
       </div>
 
   );

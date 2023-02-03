@@ -1,0 +1,18 @@
+.Aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+    p {
+        padding: 40px;
+        backdrop-filter: blur(5px); 
+        background-color: rgb(7, 65, 19); 
+        border-radius: 26px; 
+        box-shadow: 15px 15px 38px 0px rgba(67, 146, 35, 0.329), inset -8px -8px 16px 0px rgba(66, 146, 35, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    }
+   
+}
