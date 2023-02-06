@@ -10,9 +10,9 @@ function Home() {
       style={{ 
         backgroundImage: `url("./background.gif")` 
       }}>
-         <Spline scene="https://prod.spline.design/n58qGHBAX5FaUtaD/scene.splinecode" />
+        <Spline scene="https://prod.spline.design/n58qGHBAX5FaUtaD/scene.splinecode" />
        
-          <img src="./intro.png" alt="contatti" />
+        <div className={styles.containerSpan}  id="text"><h1>BENVENUTI</h1></div>
           
       </div>
 

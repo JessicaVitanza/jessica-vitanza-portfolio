@@ -2,10 +2,54 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     background-size: cover;
+    padding-top: 200px;
+    
+    .containerSpan {
+        font-weight: 200;
+        letter-spacing: 0;
+        text-align: center;
+        position: relative;
+        margin-top: -150px;
+
+        h1 {
+            color: white;
+            font-size: 6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            animation: letterspacing 12s infinite cubic-bezier(.2, 0, 0, 1);
+            position: absolute;
+            transform: translate3d(-50%, -50%, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+
+          @keyframes letterspacing {
+            0% {
+              letter-spacing: -5rem;
+              filter: blur(6rem);
+            }
+            50% {
+              filter: blur(0rem);
+            }
+            75% {
+              filter: blur(0rem);
+            }
+            100% {
+              letter-spacing: 1rem;
+              filter: blur(6rem);
+            }
+          }
+      
+      }
+
+      
+      
     
 }
+
+
 
 
