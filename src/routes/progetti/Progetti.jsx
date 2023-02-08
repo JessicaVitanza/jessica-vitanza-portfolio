@@ -6,7 +6,7 @@ function Progetti() {
 
   return (
 
-      <div className={styles.Progetti}>
+      <div className={styles.Progetti}style={{ backgroundImage: `url("./background.svg")`}}>
           <p>Progetti</p>    
           <Spline scene="https://prod.spline.design/i8Vjn4rypOdoJc4i/scene.splinecode" />
           <Spline scene="https://prod.spline.design/XlJVSXRjOGULldPl/scene.splinecode" />

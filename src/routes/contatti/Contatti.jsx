@@ -4,9 +4,9 @@ function Contatti() {
 
   return (
 
-      <div className={styles.Contatti}>
-          <p>Contatti</p>
-          <img src="./contact.png" alt="" />
+      <div className={styles.Contatti} style={{ backgroundImage: `url("./background.svg")`}}>
+          
+          <img src="./contact.png" alt="" /><p>Contatti</p>
       </div>
 
   );

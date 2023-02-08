@@ -1,12 +1,14 @@
 import styles from "./formazione.module.scss";
-
+import 'animate.css';
 function Formazione() {
 
-  return (
+  return ( 
 
-      <div className={styles.Formazione}>
-          <p>Formazione</p>
-      </div>
+
+
+      <div className={styles.Formazione}style={{ backgroundImage: `url("./background.svg")`}}>
+      <p class="animate__animated animate__backInDown">Formazione</p>
+  </div>
 
   );
 }

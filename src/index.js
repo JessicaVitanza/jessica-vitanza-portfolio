@@ -11,8 +11,6 @@ import Progetti from "./routes/progetti/Progetti"
 import Contatti from "./routes/contatti/Contatti"
 import Home from "./routes/home/Home";
 import "./index.scss";
-import Spline from '@splinetool/react-spline';
-
 
 const router = createBrowserRouter(
   createRoutesFromElements(
