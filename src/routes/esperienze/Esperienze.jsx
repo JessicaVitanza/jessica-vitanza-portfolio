@@ -5,8 +5,8 @@ function Esperienze() {
 
   return (
 
-  <div className={styles.Esperienze}style={{ backgroundImage: `url("./background.svg")`}}>
-      <p class="animate__animated animate__backInDown">Esperienze</p>
+  <div className={styles.Esperienze}style={{ backgroundImage: `url("./green.svg")`}}>
+     
   </div>
 
   );

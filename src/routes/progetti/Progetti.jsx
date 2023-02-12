@@ -1,16 +1,14 @@
 import styles from "./progetti.module.scss";
-import Spline from '@splinetool/react-spline';
-
-
+import 'animate.css';
 function Progetti() {
 
-  return (
+  return ( 
 
-      <div className={styles.Progetti}style={{ backgroundImage: `url("./background.svg")`}}>
-          <p>Progetti</p>    
-          <Spline scene="https://prod.spline.design/i8Vjn4rypOdoJc4i/scene.splinecode" />
-          <Spline scene="https://prod.spline.design/XlJVSXRjOGULldPl/scene.splinecode" />
-      </div>
+
+
+  <div className={styles.Progetti} style={{ backgroundImage: `url("./green.svg")`}}>
+
+  </div>
 
   );
 }

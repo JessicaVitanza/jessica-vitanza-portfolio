@@ -16,16 +16,16 @@ function Home() {
 
   if (isFetching) {
     return (
-      <div className={styles.Loading}style={{ backgroundImage: `url("./background.svg")`}}>
+      <div className={styles.Loading}style={{ backgroundImage: `url("./green.svg")`}}>
       <h1>Loading...</h1>
-      {/* <img src="./loading.gif" alt="loading" /> */}<span className={styles.loader}></span>
+     <span className={styles.loader}></span>
       </div>
     );
   }
 
   return (
 
-      <div className={styles.Home} style={{ backgroundImage: `url("./background.svg")`}}>
+      <div className={styles.Home} style={{ backgroundImage: `url("./green.svg")`}}>
          <Spline scene="https://prod.spline.design/KRh24sNsD39JSLwE/scene.splinecode" />         
          <div className={styles.containerSpan}  id="text"><h1>BENVENUTI</h1></div>
       </div>

@@ -4,6 +4,10 @@
   position: fixed;
   width: 100%;
   padding-top: 10px;
+  z-index: 1;
+  backdrop-filter: blur(3px); 
+  background: rgba(91, 138, 103, 0.153);
+
 
   a {
     display: flex;
